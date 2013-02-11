@@ -218,4 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/moto/asanti_c/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/moto/asanti_c/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/moto/asanti_c/proprietary/etc/firmware/atmxt-r2.tdat:system/etc/firmware/atmxt-r2.tdat
+    vendor/moto/asanti_c/proprietary/etc/firmware/atmxt-r2.tdat:system/etc/firmware/atmxt-r2.tdat \
+    vendor/moto/asanti_c/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
+    vendor/moto/asanti_c/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin
