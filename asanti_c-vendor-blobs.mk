@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
     vendor/moto/asanti_c/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/moto/asanti_c/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/moto/asanti_c/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
