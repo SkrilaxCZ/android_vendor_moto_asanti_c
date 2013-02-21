@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
     vendor/moto/asanti_c/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/moto/asanti_c/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/moto/asanti_c/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
@@ -98,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/moto/asanti_c/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/moto/asanti_c/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+    vendor/moto/asanti_c/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/moto/asanti_c/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/moto/asanti_c/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/moto/asanti_c/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -135,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/lib/libnativedrm1.so:system/lib/libnativedrm1.so \
     vendor/moto/asanti_c/proprietary/lib/libnative_renderer.so:system/lib/libnative_renderer.so \
     vendor/moto/asanti_c/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/moto/asanti_c/proprietary/lib/libnfcpn544c3_fw.so:system/lib/libnfcpn544c3_fw.so \
     vendor/moto/asanti_c/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
     vendor/moto/asanti_c/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/moto/asanti_c/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
@@ -155,6 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/moto/asanti_c/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/moto/asanti_c/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/moto/asanti_c/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/moto/asanti_c/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
     vendor/moto/asanti_c/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     vendor/moto/asanti_c/proprietary/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
@@ -209,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/moto/asanti_c/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/moto/asanti_c/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/moto/asanti_c/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/moto/asanti_c/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/moto/asanti_c/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/moto/asanti_c/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
