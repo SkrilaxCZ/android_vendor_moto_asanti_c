@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     vendor/moto/asanti_c/proprietary/etc/OperatorPolicy.xml:system/etc/OperatorPolicy.xml \
     vendor/moto/asanti_c/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
+    vendor/moto/asanti_c/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/moto/asanti_c/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/moto/asanti_c/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
@@ -106,12 +107,16 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/moto/asanti_c/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/moto/asanti_c/proprietary/lib/libgps.so:system/lib/libgps.so \
+    vendor/moto/asanti_c/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/moto/asanti_c/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/moto/asanti_c/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/moto/asanti_c/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/moto/asanti_c/proprietary/lib/libimssettings.so:system/lib/libimssettings.so \
     vendor/moto/asanti_c/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/moto/asanti_c/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/moto/asanti_c/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/moto/asanti_c/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/moto/asanti_c/proprietary/lib/libloc_ext.so:system/lib/libloc_ext.so \
     vendor/moto/asanti_c/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/moto/asanti_c/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/moto/asanti_c/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
