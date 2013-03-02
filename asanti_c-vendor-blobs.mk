@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/asanti_c/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/moto/asanti_c/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/moto/asanti_c/proprietary/bin/curl:system/bin/curl \
-    vendor/moto/asanti_c/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/moto/asanti_c/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/moto/asanti_c/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/moto/asanti_c/proprietary/bin/qdumpd:system/bin/qdumpd \
