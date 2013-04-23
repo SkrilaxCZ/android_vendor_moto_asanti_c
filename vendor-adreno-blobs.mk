@@ -1,4 +1,4 @@
-LOCAL_PATH:=vendor/moto/asanti_c
+LOCAL_PATH:=vendor/motorola/xt897
 
 #adreno
 PRODUCT_COPY_FILES += \
