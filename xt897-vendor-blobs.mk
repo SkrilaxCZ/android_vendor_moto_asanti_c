@@ -20,7 +20,7 @@ LOCAL_PATH := vendor/motorola/xt897
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt897/proprietary/etc/OperatorPolicy.xml:system/etc/OperatorPolicy.xml \
-    vendor/motorola/xt897/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml \
+    vendor/motorola/xt897/proprietary/etc/UserPolicy.xml:system/etc/UserPolicy.xml
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt897/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/xt897/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
@@ -223,3 +223,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt897/proprietary/etc/firmware/atmxt-r2.tdat:system/etc/firmware/atmxt-r2.tdat \
     vendor/motorola/xt897/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/motorola/xt897/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin
+
